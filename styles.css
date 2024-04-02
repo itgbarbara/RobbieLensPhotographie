@@ -1,11 +1,11 @@
-
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color:#1F2039;
 }
 
 a {
-    color: black;
+    color: #242424;
     text-decoration: none;
 }
 
@@ -17,9 +17,24 @@ em {
 h1 {
     font-size: 3.5em;
     color: #A5B4FC;
-    font-family: montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-p {
+p, li {
     font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+h2 {
+    color: #F9F8FF;
+}
+
+header, footer {
+    background-color: white;
+}
+
+
+.cta {
+    background: linear-gradient(90deg,#8E86B5,#ACAEED);
+    color: white;
 }
