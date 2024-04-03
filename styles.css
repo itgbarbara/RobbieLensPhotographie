@@ -40,7 +40,6 @@ footer {
     padding: 20px 50px;
 }
 
-
 .cta {
     background: linear-gradient(#8E86B5,#ACAEED);
     color: white;
@@ -55,6 +54,10 @@ a:hover {
 .cta:hover {
     background: linear-gradient(#696484, #8788BA);
     text-decoration: none;
+}
+
+.lien-icone {
+    margin-left: 30px;
 }
 
 .lien-icone:hover {
@@ -84,64 +87,46 @@ section {
     margin: auto;
 }
 
-/* Modifications à partir d'ici */
-
-/* Positionnement élément de l'en-tête */
-
-nav {
+nav, 
+footer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.liens-nav a {
-    padding-left: 100px;
+nav a {
+    margin-left: 30px;
 }
 
-/* Positionnement première section de l'accueil */
-
-.conteneur-accueil {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 10%;
-}
-
-
-.texte-accueil {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.texte-accueil div {
-    padding-bottom: 50px;
-}
-
-/* Positionnement élément deuxième section de l'accueil */
-
-.dernier-projet {
+.accueil-photos {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 80px;
 }
 
-.dernier-projet h2 {
+.accueil-photos h2 {
     color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
-.dernier-projet div {
-    padding-bottom: 50px;
-}
-
-.grille-images {
-    width: 70%;
+.accueil-photos div {
     display: flex;
-    flex-flow: row wrap;
-    gap: 20px;
+    flex-direction: row;
     justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.accueil-introduction {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.accueil-introduction p { /* Ajout par moi parce que problème de lisibilité */
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
