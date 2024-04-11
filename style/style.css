@@ -69,11 +69,6 @@ section {
     padding: 80px;
 }
 
-.a-propos-main {
-    width: 50%;
-    margin: auto;
-}
-
 nav, 
 footer {
     display: flex;
@@ -84,8 +79,4 @@ footer {
 
 nav a {
     margin-left: 30px;
-}
-
-.cta-accueil-photo {
-    text-align: center; /* Fonctionne parce que l'élément .cta a été transformée en inline-block */
 }
