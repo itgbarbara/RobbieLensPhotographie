@@ -40,7 +40,23 @@ td {
     padding: 80px;
 }
 
-.tarifs h2 {
+.section-tarifs h2 {
     margin-bottom: 80px;
     text-align: center;
+}
+
+/*** Media queries pour le design responsive ***/
+
+@Media screen and (max-width: 996px) {
+    .a-propos-main {
+        width: 100%;
+    }
+
+    .section-tarifs {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
 }

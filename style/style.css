@@ -80,3 +80,35 @@ footer {
 nav a {
     margin-left: 30px;
 }
+
+/*** Media queries pour le design responsive ***/
+
+@Media screen and (max-width: 996px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav img {
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    header, 
+    footer {
+        padding: 20px 20px;
+    }
+
+    section {
+        padding: 50px 20px 50px 20px;
+    }
+}
